@@ -14,7 +14,7 @@ body {
     align-items: center;
     height: 100vh;
     width: 100vw;
-    background-color: palevioletred;
+    background-color: lightblue;
     overflow: hidden;
     text-align: center;
 }
@@ -37,7 +37,7 @@ body {
 }
 
 h1, h2 {
-    color: seashell;
+    color:royalblue;
     position: relative;
 }
 
