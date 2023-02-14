@@ -40,3 +40,35 @@ h1, h2 {
     color: seashell;
     position: relative;
 }
+
+.heart {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    transform: rotate(45deg);
+    background-color: red;
+    left: 200px;
+    top: 200px;
+}
+
+.heart .left {
+    content: '';
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: red;
+    left: -25px;
+    top: 0px;
+}
+
+.heart .right {
+    content: '';
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: red;
+    left: 0px;
+    top: -25px;
+}
